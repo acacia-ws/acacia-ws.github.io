@@ -2,7 +2,7 @@
 layout: post
 title: "Boot Room Bench"
 tags: [bootroom, bench, downpipe]
-image: bootroombench.png
+image: posts/bootroombench.png
 link: https://www.instagram.com/p/CuzQ11tMT5n
 ---
 
