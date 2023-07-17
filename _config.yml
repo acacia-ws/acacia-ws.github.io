@@ -3,3 +3,8 @@ title: Acacia
 description: Experimenting with wood
 logo: /assets/img/Acacia.png
 show_downloads: false
+exclude:
+  - docker-compose.yml
+github:
+  is_project_page: false
+  is_user_page: false

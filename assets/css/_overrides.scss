@@ -1,0 +1,19 @@
+@import "settings";
+
+body {
+  background-color: $light;
+  color: $dark;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $dark;
+}
+
+h2 {
+  color: $dark;
+}
+
+strong {
+  color: $dark;
+  font-weight:700;
+}

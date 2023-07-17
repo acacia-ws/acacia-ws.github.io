@@ -1,14 +1,7 @@
 ---
 ---
 
+@import "overrides";
 @import "{{ site.theme }}";
-
-$light: #EEEEEE;
-$dark: #222831;
-
-$body-background-color: $light;
-$headings-color: $dark;
-$link-color: $dark;
-$strong-color: $dark;
 
 img[alt=Instagram] { width: 200px; }
