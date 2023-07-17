@@ -20,7 +20,7 @@ layout: default
 
     <p>
         <article>
-            {{ post.content }}
+            {{ post.content | strip_html }}
 
             {% if post.link %}
                 <a class="post-read-more" href="{{ post.link }}">Read more</a>
