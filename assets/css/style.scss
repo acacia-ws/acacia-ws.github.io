@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 @import "overrides";
+@import "settings";
 
 .description {
   margin-top: 1rem;
@@ -26,9 +27,41 @@ ul.social {
   padding-left: 0;
 }
 
+.posts-container {
+  margin-bottom: 5rem;
+  padding: 0px;
+  list-style: none;
+}
+
 .post-date {
   display: block;
-  margin-top:3px;
+  margin-top:10px;
   margin-bottom: 1rem;
   font-size:0.8rem;
+}
+
+.pagination {
+  overflow: hidden;
+  text-align: center;
+}
+
+.pagination a {
+  text-decoration: none;
+}
+
+.pagination-button {
+  color: $dark;
+  border: 1px solid $dark;
+  padding: 15px 45px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pagination-active {
+  color: $mid;
+}
+
+.pagination-active:hover {
+  background-color: $lighter;
 }
