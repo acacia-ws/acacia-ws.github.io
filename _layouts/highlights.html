@@ -4,14 +4,29 @@ layout: default
 
 {% for post in paginator.posts %}
 <div class="posts-container">
-    <h1>{{ post.title }}</h1>
+    <h1>
+        {% if post.link %}
+        <a href="{{ post.link }}">{{ post.title }}</a>
+        {% else %}
+            {{ post.title }}
+        {% endif %}
+    </h1>
+
     {% if post.image %}
     <div class="thumbnail-container">
         <img src="/assets/img/{{ post.image }}">
     </div>
     {% endif %}
+
     <p>
-        {{ post.content | strip_html | truncate: 350 }}
+        <article>
+            {{ post.content }}
+
+            {% if post.link %}
+                <a class="post-read-more" href="{{ post.link }}">Read more</a>
+            {% endif %}
+        </article>
+
         <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }}</span>
     </p>
 </div>
