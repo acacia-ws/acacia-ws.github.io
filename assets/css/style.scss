@@ -4,4 +4,8 @@
 @import "{{ site.theme }}";
 @import "overrides";
 
-img[alt=Instagram] { width: 200px; }
+img[alt=Instagram] { width: 100px; }
+
+ul.social {
+  list-style:none;
+}
