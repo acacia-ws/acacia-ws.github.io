@@ -19,4 +19,4 @@ plugins: [jekyll-paginate]
 #   limit: 0
 #   sort_field: 'date'
 #   sort_reverse: true
-paginate: 5
+paginate: 3
