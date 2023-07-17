@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Acacia
 description: Experimenting with wood
+logo: /assets/img/Acacia.png
+show_downloads: false
