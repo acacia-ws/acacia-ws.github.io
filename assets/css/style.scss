@@ -5,12 +5,14 @@
 @import "overrides";
 @import "settings";
 
-a, a:link, a:visited {
-  color: $dark;
-}
+h1 {
+  a, a:link, a:visited {
+    color: $dark;
+  }
 
-a:hover, a:active {
-  color: $mid;
+  a:hover, a:active {
+    color: $mid;
+  }
 }
 
 .description {
