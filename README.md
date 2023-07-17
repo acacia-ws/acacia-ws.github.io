@@ -1,1 +1,1 @@
-![Logo](img/Logo.png "Acacia")
+![Logo](img/Acacia.png "Acacia")
