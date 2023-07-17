@@ -10,8 +10,18 @@
 
 .social {
   margin-top: 2rem;
+
+  img {
+    height: 40px;
+  }
+
+  a, img {
+    vertical-align: middle;
+    display: inline-block;
+  }
 }
 
 ul.social {
   list-style:none;
 }
+
