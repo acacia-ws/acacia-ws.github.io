@@ -5,6 +5,14 @@
 @import "overrides";
 @import "settings";
 
+a, a:link, a:visited {
+  color: $dark;
+}
+
+a:hover, a:active {
+  color: $mid;
+}
+
 .description {
   margin-top: 1rem;
 }
