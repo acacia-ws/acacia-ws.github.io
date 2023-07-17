@@ -50,8 +50,8 @@ ul.social {
 }
 
 .pagination-button {
-  color: $dark;
-  border: 1px solid $dark;
+  color: $light-gray-color;
+  border: 1px solid $pagination-button-color;
   padding: 15px 45px;
   display: inline-block;
   font-size: 16px;
@@ -63,5 +63,5 @@ ul.social {
 }
 
 .pagination-active:hover {
-  background-color: $lighter;
+  background-color: $pagination-button-color;
 }
