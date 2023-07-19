@@ -4,7 +4,6 @@ description: Cabinetry, Fitted Furniture & general Home Improvement
 logo: /assets/img/Acacia.png
 exclude:
   - docker-compose.yml
-favicon: /assets/img/favicon.ico
 social:
   instagram: https://instagram.com/acacia.joinery
   email: contact@acacia.ws
