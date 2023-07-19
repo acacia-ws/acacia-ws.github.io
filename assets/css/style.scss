@@ -43,6 +43,10 @@ a:hover, a:active {
     vertical-align: middle;
     display: inline-block;
   }
+
+  li~li {
+    margin-top: 0.5rem;
+  }
 }
 
 ul.social {
