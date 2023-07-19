@@ -25,11 +25,21 @@
         <p class="description">{{ site.description | default: site.github.project_tagline }}</p>
 
         <ul class="social">
+            {% if site.social.instagram %}
             <li>
                 <a href="{{ site.social.instagram }}">
-                    <img src="/assets/img/instagram.svg" alt="Instagram"/><span> Instagram</span>
+                    <i class="fa-brands fa-instagram"></i><span> Instagram</span>
                 </a>
             </li>
+            {% endif %}
+
+            {% if site.social.email %}
+            <li>
+                <a href="mailto:{{ site.social.email }}&subject=Enquiry">
+                    <i class="fa-solid fa-at"></i><span> Contact</span>
+                </a>
+            </li>
+            {% endif %}
         </ul>
     </header>
     <section>
