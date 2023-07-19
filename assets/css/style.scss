@@ -21,6 +21,16 @@ h1 {
 
 .social {
   margin-top: 2rem;
+  font-size: 1.2rem;
+
+  a, a:link, a:visited {
+    color: $dark;
+  }
+
+  a:hover, a:active {
+    color: $mid;
+    font-weight: normal;
+  }
 
   img {
     height: 40px;
