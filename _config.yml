@@ -5,7 +5,7 @@ logo: /assets/img/Acacia.png
 exclude:
   - docker-compose.yml
 social:
-  instagram: https://instagram.com/acacia.joinery
+  instagram: https://instagram.com/acacia.woodwork
   email: contact@acacia.ws
 
 plugins: [jekyll-paginate]
