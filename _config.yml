@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Acacia
-description: Cabinetry, Fitted Furniture & general Home Improvement
+description: Cabinetry, Fitted & free standing Furniture, general woodwork & Home Improvement
 logo: /assets/img/Acacia.png
 exclude:
   - docker-compose.yml
