@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: Acacia
 description: Cabinetry, Fitted & free standing Furniture, general woodwork & Home Improvement
+location: North & West Yorkshire
 logo: /assets/img/Acacia.png
 exclude:
   - docker-compose.yml
